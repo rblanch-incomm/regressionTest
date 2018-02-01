@@ -33,8 +33,6 @@ public class Regression {
         el1.click();
         MobileElement text1 = (MobileElement) driver.findElementById("com.example.rrblanch_incomm.myapplication:id/passed_text_tv");
         assertEquals(text1.getText(), "pass me");
-        MobileElement el2 = (MobileElement) driver.findElementById("com.example.rrblanch_incomm.myapplication:id/previous_view_btn");
-        el2.click();
     }
 
     @Test
@@ -46,8 +44,17 @@ public class Regression {
         el2.click();
         MobileElement text1 = (MobileElement) driver.findElementById("com.example.rrblanch_incomm.myapplication:id/passed_text_tv");
         assertEquals(text1.getText(), "defaulted");
-        MobileElement el3 = (MobileElement) driver.findElementById("com.example.rrblanch_incomm.myapplication:id/previous_view_btn");
-        el3.click();
+    }
+
+    @Test
+    public void shouldFail() {
+        MobileElement el1 = (MobileElement) driver.findElementById("com.example.rrblanch_incomm.myapplication:id/edit_text_et");
+        el1.sendKeys("defaulted");
+        MobileElement el2 = (MobileElement) driver.findElementById("com.example.rrblanch_incomm.myapplication:id/next_view_btn");
+        driver.hideKeyboard();
+        el2.click();
+        MobileElement text1 = (MobileElement) driver.findElementById("com.example.rrblanch_incomm.myapplication:id/passed_text_tv");
+        assertEquals(text1.getText(), "defaultede");
     }
 
     @After
