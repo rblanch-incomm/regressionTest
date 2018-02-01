@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="RegressionTest" time="34.273" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="RegressionTest" time="35.792" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="Test" value="EducationalWalkthroughRegressionTest"/>
@@ -65,7 +65,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="RegressionTest" name="VDMOBFirstLoginTest" time="10.836"/>
-  <testcase classname="RegressionTest" name="VDMOBCreatePaymentSlipTest" time="11.5"/>
-  <testcase classname="RegressionTest" name="VDMOBTest2" time="11.937"/>
+  <testcase classname="RegressionTest" name="VDMOBFirstLoginTest" time="11.706"/>
+  <testcase classname="RegressionTest" name="VDMOBCreatePaymentSlipTest" time="12.826"/>
+  <testcase classname="RegressionTest" name="VDMOBTest2" time="11.26"/>
 </testsuite>

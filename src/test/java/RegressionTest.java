@@ -20,8 +20,8 @@ public class RegressionTest {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("platformName", "Android");
         desiredCapabilities.setCapability("platformVersion", "8.1");
-//        desiredCapabilities.setCapability("app", "/bitrise/deploy/app-debug.apk");
-        desiredCapabilities.setCapability("app", "/Users/rrblanch-incomm/Incomm/Android-WL-Pay-it-Here/app/build/outputs/apk/debug/app-debug.apk");
+        desiredCapabilities.setCapability("app", "/bitrise/deploy/app-debug.apk");
+//        desiredCapabilities.setCapability("app", "/Users/rrblanch-incomm/Incomm/Android-WL-Pay-it-Here/app/build/outputs/apk/debug/app-debug.apk");
         desiredCapabilities.setCapability("deviceName", "Android Emulator");
         URL remoteUrl = new URL("http://localhost:4723/wd/hub");
 
