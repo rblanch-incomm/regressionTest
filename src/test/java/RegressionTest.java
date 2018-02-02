@@ -16,10 +16,10 @@ public class RegressionTest {
 
     @Before
     public void setUp() throws MalformedURLException {
-        System.getenv();
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("platformName", "Android");
-        desiredCapabilities.setCapability("platformVersion", "8.1");
+//        desiredCapabilities.setCapability("platformVersion", "8.1");
+        desiredCapabilities.setCapability("platformVersion", "8.0");
         desiredCapabilities.setCapability("app", "/bitrise/deploy/app-debug.apk");
 //        desiredCapabilities.setCapability("app", "/Users/rrblanch-incomm/Incomm/Android-WL-Pay-it-Here/app/build/outputs/apk/debug/app-debug.apk");
         desiredCapabilities.setCapability("deviceName", "Android Emulator");
@@ -40,7 +40,7 @@ public class RegressionTest {
 
     @Test
     public void VDMOBCreatePaymentSlipTest() {
-        String accountNumber = "56139025378326";
+
 
     }
 
