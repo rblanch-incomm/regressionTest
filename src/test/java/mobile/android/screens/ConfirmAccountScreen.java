@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class ConfirmAccountScreen extends AbstractScreen {
 
-    @AndroidFindBy(id = "com.incomm.payithere:id/button_accept")
+    @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.support.v4.view.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.Button[1]")
     public WebElement acceptButton;
 
     public ConfirmAccountScreen(AppiumDriver driver) {
