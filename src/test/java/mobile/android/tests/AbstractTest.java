@@ -6,8 +6,9 @@ import mobile.android.utilities.AppiumDriverBuilder;
 import org.junit.Before;
 
 import java.net.MalformedURLException;
+import java.util.concurrent.TimeUnit;
 
-public class AbstractTest {
+public abstract class AbstractTest {
 
     protected AppiumDriver driver;
     protected PayItHere app;

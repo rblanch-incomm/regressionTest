@@ -13,7 +13,7 @@ public class NavigationBarScreen extends AbstractScreen {
     public WebElement navigationItem2;
 
     @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[3]")
-    public WebElement moreNavigation3;
+    public WebElement navigationItem3;
 
     @AndroidFindBy(accessibility = "Navigate up")
     public WebElement navigateUp;

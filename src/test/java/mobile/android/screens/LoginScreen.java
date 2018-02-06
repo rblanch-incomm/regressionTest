@@ -15,7 +15,5 @@ public class LoginScreen extends AbstractScreen {
 
     public LoginScreen(AppiumDriver driver) {
         super(driver);
-//        logInButton = (MobileElement) driver.findElementById("com.incomm.payithere:id/login_sign_in_bt");
-
     }
 }
