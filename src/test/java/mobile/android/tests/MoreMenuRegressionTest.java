@@ -5,7 +5,7 @@ import org.junit.Assert;
 
 import java.util.concurrent.TimeUnit;
 
-public class MoreMenuRegression extends AbstractTest{
+public class MoreMenuRegressionTest extends AbstractTest{
 
     @Test
     public void navigateMoreMenu() {

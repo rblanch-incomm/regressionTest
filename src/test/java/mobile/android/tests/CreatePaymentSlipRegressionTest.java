@@ -7,7 +7,7 @@ import org.junit.Test;
 import java.util.concurrent.TimeUnit;
 
 
-public class CreatePaymentSlipRegression extends AbstractTest{
+public class CreatePaymentSlipRegressionTest extends AbstractTest{
 
     @Test
     public void VDMOBCreatePaymentSlipTest() {
