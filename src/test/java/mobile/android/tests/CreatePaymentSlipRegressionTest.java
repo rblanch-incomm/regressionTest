@@ -30,7 +30,7 @@ public class CreatePaymentSlipRegressionTest extends AbstractTest{
         app.enterAccountScreen().confirmAccountNumberET.sendKeys(accountNumber);
         driver.hideKeyboard();
         app.enterAccountScreen().submitButton.click();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         app.confirmAccountScreen().acceptButton.click();
         app.enterPaymentAmountScreen().enterPaymentAmountET.sendKeys(paymentSlipAmount);
         driver.hideKeyboard();
